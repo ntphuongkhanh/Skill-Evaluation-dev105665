@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>3</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 16:06:01</sys_created_on>
+        <sys_id>ecbffbd8079170108169fc289c1ed0a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope>
+        <sys_update_name>sys_ui_view_ecbffbd8079170108169fc289c1ed0a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 16:06:01</sys_updated_on>
+        <title>3</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

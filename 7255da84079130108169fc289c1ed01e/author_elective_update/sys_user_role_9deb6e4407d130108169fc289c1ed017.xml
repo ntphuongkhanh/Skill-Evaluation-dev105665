@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_659008_skill_eva.skill_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>skill_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-07 15:21:25</sys_created_on>
+        <sys_id>9deb6e4407d130108169fc289c1ed017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_659008_skill_eva.skill_user</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope>
+        <sys_update_name>sys_user_role_9deb6e4407d130108169fc289c1ed017</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-07 15:21:25</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</application>
+        <file_path/>
+        <instance_id>fff8554bdb352850387021c4059619e2</instance_id>
+        <instance_name>dev105665</instance_name>
+        <name>sys_user_role_9deb6e4407d130108169fc289c1ed017</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_659008_skill_eva.skill_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>skill_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-07 15:21:25</sys_created_on><sys_id>9deb6e4407d130108169fc289c1ed017</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_659008_skill_eva.skill_user</sys_name><sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope><sys_update_name>sys_user_role_9deb6e4407d130108169fc289c1ed017</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-07 15:21:25</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1534945553</payload_hash>
+        <record_name>x_659008_skill_eva.skill_user</record_name>
+        <reverted_from/>
+        <source>f255da84079130108169fc289c1ed020</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-07 15:21:25</sys_created_on>
+        <sys_id>19eb62c407d130108169fc289c1ed077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a818f3b200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-07 15:21:25</sys_updated_on>
+        <type>Role</type>
+        <update_guid>51eb62c476d1301026fedce7a7cf7977</update_guid>
+        <update_guid_history>51eb62c476d1301026fedce7a7cf7977:-1534945553</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_659008_skill_eva.skill_user">1cce72090751f0108169fc289c1ed061</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-10 19:17:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>64ba6cbd640f4af68e0f5c0b34c3b049</sys_id>
+        <sys_metadata>9deb6e4407d130108169fc289c1ed017</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_659008_skill_eva.skill_user</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope>
+        <sys_scope_delete display_value="">8aae09dd80464cce8b40214db755a3a9</sys_scope_delete>
+        <sys_update_name>sys_user_role_9deb6e4407d130108169fc289c1ed017</sys_update_name>
+        <sys_update_version display_value="sys_user_role_9deb6e4407d130108169fc289c1ed017">19eb62c407d130108169fc289c1ed077</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-10 19:17:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

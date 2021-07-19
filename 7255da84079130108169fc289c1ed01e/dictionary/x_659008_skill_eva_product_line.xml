@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Product Line" max_length="40" name="x_659008_skill_eva_product_line" sizeclass="9" type="collection">
+        <element default="Description" label="Description" max_length="1000" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="Product line" display="true" label="Product Line" max_length="1000" name="product_line" type="string"/>
+        <element default="Related tags" label="Tags" max_length="1000" name="tags" type="string_full_utf8"/>
+    </element>
+</database>

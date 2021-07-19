@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Skill" max_length="40" name="x_659008_skill_eva_skill" sizeclass="160" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="1000" name="number" type="string"/>
+        <element label="Product Line" max_length="40" name="product_line" reference="x_659008_skill_eva_product_line" reference_floats="true" type="reference"/>
+        <element display="true" label="Skill Description" max_length="1000" name="skill_description" type="string"/>
+        <element label="Weight" max_length="100" name="weight" type="integer"/>
+    </element>
+</database>

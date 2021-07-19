@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>certificate IS tb</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_659008_skill_eva_certificate_is_tb</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-09 03:43:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7d5f9268075970108169fc289c1ed076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>certificate IS tb</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope>
+        <sys_update_name>sys_app_module_7d5f9268075970108169fc289c1ed076</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-09 03:43:31</sys_updated_on>
+        <timeline_page/>
+        <title>certificate IS tb</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</application>
+        <file_path/>
+        <instance_id>fff8554bdb352850387021c4059619e2</instance_id>
+        <instance_name>dev105665</instance_name>
+        <name>sys_app_module_7d5f9268075970108169fc289c1ed076</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>certificate IS tb</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_659008_skill_eva_certificate_is_tb</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-09 03:43:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7d5f9268075970108169fc289c1ed076</sys_id><sys_mod_count>0</sys_mod_count><sys_name>certificate IS tb</sys_name><sys_overrides/><sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope><sys_update_name>sys_app_module_7d5f9268075970108169fc289c1ed076</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-09 03:43:31</sys_updated_on><timeline_page/><title>certificate IS tb</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1516268999</payload_hash>
+        <record_name>certificate IS tb</record_name>
+        <reverted_from/>
+        <source>f255da84079130108169fc289c1ed020</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-09 03:43:31</sys_created_on>
+        <sys_id>f95f9268075970108169fc289c1ed078</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a895d01210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-09 03:43:31</sys_updated_on>
+        <type>Module</type>
+        <update_guid>355f92684159701029d410995ff74a78</update_guid>
+        <update_guid_history>355f92684159701029d410995ff74a78:-1516268999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="certificate IS tb">19d9fe810751f0108169fc289c1ed01d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-10 18:56:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>7b5b39cf353441909fce4d8037f8e204</sys_id>
+        <sys_metadata>7d5f9268075970108169fc289c1ed076</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>certificate IS tb</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope>
+        <sys_scope_delete display_value="">8aae09dd80464cce8b40214db755a3a9</sys_scope_delete>
+        <sys_update_name>sys_app_module_7d5f9268075970108169fc289c1ed076</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7d5f9268075970108169fc289c1ed076">f95f9268075970108169fc289c1ed078</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-10 18:56:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

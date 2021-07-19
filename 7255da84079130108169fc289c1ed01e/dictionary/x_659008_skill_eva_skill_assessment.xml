@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Skill Assessment" max_length="40" name="x_659008_skill_eva_skill_assessment" sizeclass="3440" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="0" label="Proficiency level" max_length="40" name="proficiency_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="N/A" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="1 - Conceptual/Trained" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2 - Experienced" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3 - Expert" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4 - Guru" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Skill" max_length="40" name="skill" reference="x_659008_skill_eva_skill" reference_floats="true" type="reference"/>
+        <element label="Submission" max_length="40" name="submission" reference="x_659008_skill_eva_submission" reference_floats="true" type="reference"/>
+    </element>
+</database>

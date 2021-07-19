@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Skill Assessment</name>
+        <order>100</order>
+        <roles>x_659008_skill_eva.skill_assessment_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-07 17:13:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19754788071530108169fc289c1ed08a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skill Assessment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope>
+        <sys_update_name>sys_app_application_19754788071530108169fc289c1ed08a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-07 17:13:06</sys_updated_on>
+        <title>Skill Assessment</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</application>
+        <file_path/>
+        <instance_id>fff8554bdb352850387021c4059619e2</instance_id>
+        <instance_name>dev105665</instance_name>
+        <name>sys_app_application_19754788071530108169fc289c1ed08a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Skill Assessment</name><order>100</order><roles>x_659008_skill_eva.skill_assessment_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-07 17:13:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>19754788071530108169fc289c1ed08a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Skill Assessment</sys_name><sys_overrides/><sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope><sys_update_name>sys_app_application_19754788071530108169fc289c1ed08a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-07 17:13:06</sys_updated_on><title>Skill Assessment</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-995536557</payload_hash>
+        <record_name>Skill Assessment</record_name>
+        <reverted_from/>
+        <source>f255da84079130108169fc289c1ed020</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-07 17:13:06</sys_created_on>
+        <sys_id>59754788071530108169fc289c1ed08c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a81f57aa50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-07 17:13:06</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>917547887b1530102cb467a5f11c188c</update_guid>
+        <update_guid_history>917547887b1530102cb467a5f11c188c:-995536557</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Skill Assessment">211eaba5079934108169fc289c1ed0f8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 12:01:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>0fc18967866045d095808ee1ee4e3a40</sys_id>
+        <sys_metadata>19754788071530108169fc289c1ed08a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skill Assessment</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope>
+        <sys_scope_delete display_value="">8aae09dd80464cce8b40214db755a3a9</sys_scope_delete>
+        <sys_update_name>sys_app_application_19754788071530108169fc289c1ed08a</sys_update_name>
+        <sys_update_version display_value="sys_app_application_19754788071530108169fc289c1ed08a">59754788071530108169fc289c1ed08c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 12:01:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

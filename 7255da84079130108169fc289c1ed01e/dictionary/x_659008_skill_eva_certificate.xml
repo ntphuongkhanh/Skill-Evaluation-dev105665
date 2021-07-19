@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Certificate" max_length="40" name="x_659008_skill_eva_certificate" sizeclass="14" type="collection">
+        <element display="true" label="Certificate name" max_length="40" name="certificate_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Product line" max_length="40" name="product_line" reference="x_659008_skill_eva_product_line" type="reference"/>
+    </element>
+</database>

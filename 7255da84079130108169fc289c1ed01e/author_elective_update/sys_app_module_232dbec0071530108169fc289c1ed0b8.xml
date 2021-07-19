@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Cert Acquisitions</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_659008_skill_eva_cert_acquisition</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-07 16:36:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>232dbec0071530108169fc289c1ed0b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cert Acquisitions</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope>
+        <sys_update_name>sys_app_module_232dbec0071530108169fc289c1ed0b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-07 16:36:56</sys_updated_on>
+        <timeline_page/>
+        <title>Cert Acquisitions</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</application>
+        <file_path/>
+        <instance_id>fff8554bdb352850387021c4059619e2</instance_id>
+        <instance_name>dev105665</instance_name>
+        <name>sys_app_module_232dbec0071530108169fc289c1ed0b8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Cert Acquisitions</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_659008_skill_eva_cert_acquisition</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-07 16:36:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>232dbec0071530108169fc289c1ed0b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cert Acquisitions</sys_name><sys_overrides/><sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope><sys_update_name>sys_app_module_232dbec0071530108169fc289c1ed0b8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-07 16:36:56</sys_updated_on><timeline_page/><title>Cert Acquisitions</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1272728082</payload_hash>
+        <record_name>Cert Acquisitions</record_name>
+        <reverted_from/>
+        <source>f255da84079130108169fc289c1ed020</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 12:01:10</sys_created_on>
+        <sys_id>a40e6ba5079934108169fc289c1ed0d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a9a97b0410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 12:01:10</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ab2dbec04715301028792161842c8eb9</update_guid>
+        <update_guid_history>ab2dbec04715301028792161842c8eb9:-222932706,ab2dbec04715301028792161842c8eb9:-222932706</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cert Acquisitions">d46eefa5079934108169fc289c1ed0ce</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 12:02:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2c8288ed05114bf69bb811ab93eea8c4</sys_id>
+        <sys_metadata>232dbec0071530108169fc289c1ed0b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cert Acquisitions</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope>
+        <sys_scope_delete display_value="">8aae09dd80464cce8b40214db755a3a9</sys_scope_delete>
+        <sys_update_name>sys_app_module_232dbec0071530108169fc289c1ed0b8</sys_update_name>
+        <sys_update_version display_value="sys_app_module_232dbec0071530108169fc289c1ed0b8">a40e6ba5079934108169fc289c1ed0d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 12:02:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

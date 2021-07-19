@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_659008_skill_eva_submission</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set Level</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+// 	var get_value = new GlideRecord("x_659008_skill_eva_level");
+// 	get_value.addQuery("min_score", "<=", current.score);
+// 	get_value.orderByDesc('min_score');
+// 	get_value.setLimit(1);
+// 	get_value.query();
+// 	get_value.next();
+	// current.level = get_value.sys_id;
+	current.level = "3fbb26c50711f0108169fc289c1ed01c";
+	current.update();
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 08:24:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64950c0a079574108169fc289c1ed0f7</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Set Level</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope>
+        <sys_update_name>sys_script_64950c0a079574108169fc289c1ed0f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 18:29:16</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=64950c0a079574108169fc289c1ed0f7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</application>
+        <file_path/>
+        <instance_id>fff8554bdb352850387021c4059619e2</instance_id>
+        <instance_name>dev105665</instance_name>
+        <name>sys_script_64950c0a079574108169fc289c1ed0f7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_659008_skill_eva_submission&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Set Level&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+// 	var get_value = new GlideRecord("x_659008_skill_eva_level");
+// 	get_value.addQuery("min_score", "&lt;=", current.score);
+// 	get_value.orderByDesc('min_score');
+// 	get_value.setLimit(1);
+// 	get_value.query();
+// 	get_value.next();
+	// current.level = get_value.sys_id;
+	current.level = "3fbb26c50711f0108169fc289c1ed01c";
+	current.update();
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-13 08:24:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;64950c0a079574108169fc289c1ed0f7&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Level&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Skill Evaluation" source="x_659008_skill_eva"&gt;7255da84079130108169fc289c1ed01e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Skill Evaluation"&gt;7255da84079130108169fc289c1ed01e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_64950c0a079574108169fc289c1ed0f7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-13 18:29:16&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=64950c0a079574108169fc289c1ed0f7"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-130372744</payload_hash>
+        <record_name>Set Level</record_name>
+        <reverted_from/>
+        <source>f255da84079130108169fc289c1ed020</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 18:29:16</sys_created_on>
+        <sys_id>6f60d60e071d74108169fc289c1ed013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aa1215e4a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 18:29:16</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>6760d60e1d1d74106fbe800f039aa813</update_guid>
+        <update_guid_history>6760d60e1d1d74106fbe800f039aa813:-130372744,7b10120e8d1d741019f1e4e9e62ba0ef:-993467146,966d8e4ab21d7410e427d52016470358:-2116265782,4c6d4e4a471d74107e2aafc0a52af263:-683471290,85dbcec6fd1d741044bacb5b3b5a1abc:572521283,45f68ec2911d74109bf30db0c571b608:-1337928705,54770c8a8e9574108d44b433b296b620:-87977896,67e5044a049574107f2efd56870e72ea:1066041654</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 18:58:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>27a546e666f84740aa38666106eeb040</sys_id>
+        <sys_metadata>64950c0a079574108169fc289c1ed0f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Level</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package>
+        <sys_parent display_value="Submission">d820c384071530108169fc289c1ed0ac</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope>
+        <sys_scope_delete display_value="">8aae09dd80464cce8b40214db755a3a9</sys_scope_delete>
+        <sys_update_name>sys_script_64950c0a079574108169fc289c1ed0f7</sys_update_name>
+        <sys_update_version display_value="sys_script_64950c0a079574108169fc289c1ed0f7">6f60d60e071d74108169fc289c1ed013</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 18:58:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

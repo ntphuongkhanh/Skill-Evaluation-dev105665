@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Submission" max_length="40" name="x_659008_skill_eva_submission" sizeclass="1" type="collection">
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Assigned to" max_length="32" name="assigned_to" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Description" mandatory="true" max_length="40" name="description" type="string"/>
+        <element label="Level" max_length="40" name="level" read_only="true" reference="x_659008_skill_eva_level" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Opened by" max_length="32" name="opened_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Score" max_length="40" name="score" read_only="true" type="integer"/>
+        <element choice="3" default="Draft" label="State" max_length="40" name="state" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="Draft"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="Submitted"/>
+                <element inactive_on_update="false" label="Reviewed" sequence="2" value="Reviewed"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="Completed"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.getUserID();&#9;" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Test" mandatory="true" max_length="32" name="test" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Skill Assessment" max_length="1024" name="u_glide_list_2" reference="x_659008_skill_eva_skill_assessment" type="glide_list"/>
+        <element attributes="base_start=true" default="x_659008_skill_eva_skill_assessment" label="New Table Name" max_length="80" name="u_table_name_3" type="table_name"/>
+        <element default="true" label="Valid" max_length="40" name="valid" read_only="true" type="boolean"/>
+        <element label="Work notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="test"/>
+        </index>
+    </element>
+</database>

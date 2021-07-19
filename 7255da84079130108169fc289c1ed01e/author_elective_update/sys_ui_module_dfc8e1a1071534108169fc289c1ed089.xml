@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="ab">d7c8e1a1071534108169fc289c1ed087</application>
+        <filter/>
+        <name>abs</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_659008_skill_eva.ab_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 02:19:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dfc8e1a1071534108169fc289c1ed089</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>abs</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope>
+        <sys_update_name>sys_ui_module_dfc8e1a1071534108169fc289c1ed089</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 02:19:10</sys_updated_on>
+        <table>x_659008_skill_eva_ab</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</application>
+        <file_path/>
+        <instance_id>fff8554bdb352850387021c4059619e2</instance_id>
+        <instance_name>dev105665</instance_name>
+        <name>sys_ui_module_dfc8e1a1071534108169fc289c1ed089</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ab">d7c8e1a1071534108169fc289c1ed087</application><filter/><name>abs</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_659008_skill_eva.ab_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-12 02:19:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dfc8e1a1071534108169fc289c1ed089</sys_id><sys_mod_count>0</sys_mod_count><sys_name>abs</sys_name><sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope><sys_update_name>sys_ui_module_dfc8e1a1071534108169fc289c1ed089</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-12 02:19:10</sys_updated_on><table>x_659008_skill_eva_ab</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>673928571</payload_hash>
+        <record_name>abs</record_name>
+        <reverted_from/>
+        <source>f255da84079130108169fc289c1ed020</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 02:19:10</sys_created_on>
+        <sys_id>1bc8e1a1071534108169fc289c1ed0a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a9882dc1a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 02:19:10</sys_updated_on>
+        <type>Module</type>
+        <update_guid>53c8e1a15f153410005d4e3b21f9daa5</update_guid>
+        <update_guid_history>53c8e1a15f153410005d4e3b21f9daa5:673928571</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 02:23:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>05ac05d6e3b248cd80a2738656d515b9</sys_id>
+        <sys_metadata>dfc8e1a1071534108169fc289c1ed089</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>abs</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_659008_skill_eva">7255da84079130108169fc289c1ed01e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">7255da84079130108169fc289c1ed01e</sys_scope>
+        <sys_scope_delete display_value="">8aae09dd80464cce8b40214db755a3a9</sys_scope_delete>
+        <sys_update_name>sys_ui_module_dfc8e1a1071534108169fc289c1ed089</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_dfc8e1a1071534108169fc289c1ed089">1bc8e1a1071534108169fc289c1ed0a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 02:23:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
